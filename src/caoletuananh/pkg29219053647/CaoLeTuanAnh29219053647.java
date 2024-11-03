@@ -28,9 +28,9 @@ public class CaoLeTuanAnh29219053647 {
                 x2 = (-b - Math.sqrt(Denta)) / 2 * a;
                 System.out.println("The equation has x1 solution : " + x2);
             } else if (Denta == 0) {
-                x = -b / 2 * a;
+                x = (-b / 2) * a;
                 System.out.println("The equation has x1 solution : " + x);
-            } else {
+            } else if(Denta < 0) {
                 System.out.println("The equation has no solution ! ");
             }
         } else {
